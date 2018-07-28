@@ -1,102 +1,66 @@
 <!DOCTYPE html>
 
 <html>
-	<head>
-		<title>Login Page</title>
-		<style type="text/css" >body{
-	margin: 0;
-	padding: 0;
-	background: url(back.jpg);
+<head>
+	<title>Home Page</title>
+	<style type="text/css">
+		a{
+	color: orange;
+	text-decoration: none;
+	font-size: 20px;
 	font-family: sans-serif;
 }
 
-.box{
-	width: 320px;
-	height: 420px;
-	background: #000;
-	color: #fff;
+.home{
+	padding: 0;
+	position: absolute;
+	left: 60%;
+}
+
+.about{
+	padding: 0;
+	position: absolute;
+	left: 70%;
+}
+
+.hobby{
+	padding: 0;
+	position: absolute;
+	left: 80%;
+}
+
+.contact{
+	padding: 0;
+	position: absolute;
+	left: 90%;
+}
+
+.main{
+	padding: 0;
 	position: absolute;
 	top: 20%;
 	left: 20%;
-	box-sizing: border-box;
-	padding: 70px 30px;
+	width: 600px;
+	color: white;
+	font-family: serif;
+	font-size: 40px;
 }
 
-.avatar{
-	position: absolute;
-	top: -50px;
-	left: 220px;
-	height: 100px;
-	width: 100px;
-	border-radius: 50%;
-
+li{
+	padding-bottom: 10px;
 }
 
-#login{
-	margin: 0;
-	padding: 0 0 20px;
-	text-align: center;
-	font-family: initial;
 
-}
-
-.box p{
-	margin: 0;
-	padding: 0;
-	font-weight: bold;
-}
-
-.box input{
-	width: 100%;
-	margin-bottom: 20px;
-}
-
-.box input[type="text"] , input[type="password"]{
-	border: none;
-	border-bottom: 1px solid #fff;
-	background: transparent;
-	outline: none;
-	height: 40px;
-	font-size: 18px;
-	color: #fff;
-}
-
-.box input[type="submit"]{
-	border: none;
-	outline: none;
-	height: 40px;
-	background: blue;
-	color: #fff;
-	font-size: 20px;
-	border-radius: 20px;
-}
-
-.box input[type="submit"]:hover {
-	cursor: pointer;
-	background: green ;
-	color: #000;
-}
-
-#signup{
-	text-align: center;
-}
-		</style>
-	</head>
-
-	<body>
-		<div class="box" >
-		<img src="usericon.jpg" class="avatar" >
-		<h1 id="login">Login here</h1>
-		<form>
-			<p>Username : </p>
-			<input name="" type="text" placeholder="Enter Username" >
-			<br>
-			<p>Password : </p>
-			<input name="" type="password" placeholder="Enter Password" >
-			<br>
-			<input  type="submit" value="Login" class="login" name="" >
-			<p class="submit">Do not have an account? <br> <a href="" id="signup" ><i>Signup here!</i></a></p>
-		</form>
+	</style>
+</head>
+<body background="back.jpg">
+		<div class="home"><a href="index.html"> HOME </a></div>
+		<div class="about"><a href="about.html"> ABOUT </a></div>
+		<div class="hobby"><a href="hobbies.html"> HOBBIES </a></div>
+		<div class="contact"><a href="contact.html"> CONTACT ME </a></div>
+		<div class="main">
+			<p>Hello,</p>
+			<p>I'm Chandra Pal Singh</p>
 		</div>
-	</body>
+</body>
 </html>
